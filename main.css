@@ -1,20 +1,40 @@
-h1 {
-    font-size: 40px;
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: blue;
+    text-align: right;
+}
+
+.header img {
+    display: inline-block;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 40px;
 }
 
 h2 {
+    margin: 20px;
     font-size: 25px;
-    font-family: Arial, sans-serif;
 }
 
 h3 {
-    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 p {
+    margin: 20px;
     font-size: 14px;
-    font-family: Arial, sans-serif;
+}
+
+table {
+    width: calc(100% - 40px);
+    margin: 20px;
+    border-collapse: collapse;
 }
 
 th,
@@ -22,7 +42,13 @@ td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-    font-family: Arial, sans-serif;
 }
 
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
 
+a {
+    display: inline-block;
+    margin: 0 20px 20px;
+}
